@@ -12,6 +12,11 @@ a {
   color: #0366d6;
 }
 
+h2 h4 {
+    text-align: center;
+    margin: 10px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

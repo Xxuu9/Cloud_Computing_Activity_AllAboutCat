@@ -4,7 +4,16 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <h1 class="display-4">Welcome to Cat World</h1>
 </div>
+
+<body>
+    <div class="container">
+        @*@foreach(var ft in Model.Fact)
+            {
+                <h4>Fact:@ft.text</h4>
+            }*@
+        <h4>Fun Fact:</h4>
+    </div>
+</body>
