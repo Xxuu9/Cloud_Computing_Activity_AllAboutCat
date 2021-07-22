@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace CloudComputingAllAboutCat.Data.Migrations
+namespace AllAboutCat.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
