@@ -2,13 +2,14 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CloudComputingAllAboutCat.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class FactDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public FactDbContext(DbContextOptions<FactDbContext> options)
             : base(options)
         {
         }
