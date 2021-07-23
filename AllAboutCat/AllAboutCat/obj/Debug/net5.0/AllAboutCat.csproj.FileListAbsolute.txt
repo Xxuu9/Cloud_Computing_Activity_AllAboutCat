@@ -38,4 +38,3 @@ C:\Users\meena\source\repos\Cloud Computing Assignment\Cloud_Computing_Activity_
 C:\Users\meena\source\repos\Cloud Computing Assignment\Cloud_Computing_Activity_AllAboutCat\AllAboutCat\AllAboutCat\obj\Debug\net5.0\AllAboutCat.pdb
 C:\Users\meena\source\repos\Cloud Computing Assignment\Cloud_Computing_Activity_AllAboutCat\AllAboutCat\AllAboutCat\obj\Debug\net5.0\AllAboutCat.genruntimeconfig.cache
 C:\Users\meena\source\repos\Cloud Computing Assignment\Cloud_Computing_Activity_AllAboutCat\AllAboutCat\AllAboutCat\obj\Debug\net5.0\AllAboutCat.csproj.CopyComplete
-C:\Users\meena\source\repos\Cloud Computing Assignment\Cloud_Computing_Activity_AllAboutCat\AllAboutCat\AllAboutCat\obj\Debug\net5.0\AllAboutCat.MvcApplicationPartsAssemblyInfo.cs
