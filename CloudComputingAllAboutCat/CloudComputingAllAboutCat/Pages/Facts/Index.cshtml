@@ -25,11 +25,17 @@
             <td>
                 @Html.DisplayFor(modelItem => item.FactText)
             </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.FactID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.FactID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.FactID">Delete</a>
-            </td>
+
+            @if (User.Identity.IsAuthenticated) {
+
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.FactID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.FactID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.FactID">Delete</a>
+                </td>
+            }
+
+
         </tr>
 }
     </tbody>
