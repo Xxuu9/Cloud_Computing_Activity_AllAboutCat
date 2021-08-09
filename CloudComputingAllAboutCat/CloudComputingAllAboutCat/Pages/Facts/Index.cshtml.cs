@@ -41,13 +41,14 @@ namespace CloudComputingAllAboutCat.Pages.Facts
                         FactText = fact
                     };
                     _context.Facts.Add(a);
- 
+
                 };
 
                 await _context.SaveChangesAsync();
 
                 Facts = await _context.Facts.ToListAsync();
             }
+
         }
     }
 }
