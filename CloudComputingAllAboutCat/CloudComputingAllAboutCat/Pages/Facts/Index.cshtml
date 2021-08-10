@@ -5,6 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
 <h1>Index</h1>
 
 <p>
@@ -20,23 +21,25 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Facts) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FactText)
-            </td>
-
-            @if (User.Identity.IsAuthenticated) {
-
+        @foreach (var item in Model.Facts)
+        {
+            <tr>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.FactID">Edit</a> |
-                    <a asp-page="./Details" asp-route-id="@item.FactID">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.FactID">Delete</a>
+                    @Html.DisplayFor(modelItem => item.FactText)
                 </td>
-            }
+
+                @if (User.Identity.IsAuthenticated)
+                {
+
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.FactID">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.FactID">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.FactID">Delete</a>
+                    </td>
+                }
 
 
-        </tr>
-}
+            </tr>
+        }
     </tbody>
 </table>

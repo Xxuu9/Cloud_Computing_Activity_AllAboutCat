@@ -12,3 +12,14 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
+
+#search_value {
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}

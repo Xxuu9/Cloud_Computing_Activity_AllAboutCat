@@ -5,6 +5,7 @@
     ViewData["Title"] = "Delete";
 }
 
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
 <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
@@ -19,7 +20,7 @@
             @Html.DisplayFor(model => model.Fact.FactText)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Fact.FactID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
