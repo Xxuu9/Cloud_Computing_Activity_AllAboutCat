@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #e0532f;
+    color: #E76F51;
 }
 
 body {
@@ -22,4 +22,18 @@ body {
     background-position: 100% 100%;
     background-repeat: no-repeat;
     /*background-size: cover;*/
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #E76F51;
+}
+input {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    /*margin: 0;*/ /*外边距设为0*/
+    /*text-decoration: none;*/ /*去掉下划线，为了支持<a>标签*/
+    /*float: left;*/ /*向左浮动*/
 }
